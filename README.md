@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Titre du projet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pixabay React et Tailwind
 
-## Available Scripts
+Ce projet est un exemple d'application React qui utilise l'API de Pixabay pour permettre aux utilisateurs de rechercher des images. Le projet utilise également Tailwind CSS pour une mise en page facile et personnalisable.
 
-In the project directory, you can run:
+## Pré-requis
 
-### `npm start`
+- git
+- npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clonez le projet
+2. Exécutez la commande `npm install`
+3. Lancez le serveur avec la commande `npm start`
 
-### `npm test`
+## Fonctionnalités
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Recherche d'images : entrez des mots-clés dans la barre de recherche pour trouver des images correspondantes dans l'API de Pixabay.
+- Affichage des résultats : les résultats de la recherche sont affichés sous forme de grille d'images, avec des informations telles que l'auteur et les tags associés.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Personnalisation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Tailwind CSS : le projet utilise Tailwind CSS pour la mise en page, ce qui facilite la personnalisation des styles. Consultez la documentation de Tailwind pour en savoir plus sur les classes disponibles et les options de personnalisation.
+- Composants React : le projet est divisé en composants React réutilisables, ce qui permet de modifier facilement le comportement de l'application. Vous pouvez ajouter de nouveaux composants pour ajouter des fonctionnalités ou modifier le comportement des composants existants pour adapter l'application à vos besoins.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Limitations
 
-### `npm run eject`
+- Clé API : pour utiliser l'application, vous devez avoir une clé API valide de Pixabay. Sans cette clé, l'application ne fonctionnera pas correctement.
+- API : l'application utilise l'API de Pixabay pour obtenir les images. Les résultats peuvent varier en fonction de la qualité de la recherche et de la disponibilité des images dans l'API.
+- Recherche en anglais : l'application utilise la recherche en langue anglaise. Les résultats peuvent ne pas être optimaux pour les recherches dans d'autres langues.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Fabriqué avec
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React - Bibliothèque JavaScript pour construire des interfaces utilisateur.
+- Tailwind CSS - Framework CSS pour le développement rapide de sites web.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Auteurs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Richardson THICOT
